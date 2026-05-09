@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claim-pilot-core"
+version = "2026.05.1"
+description = "Shared configuration, database utilities, exceptions, and core components for Claim Pilot platform"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Claim Pilot Team", email = "team@claim-pilot.com" }
+]
+keywords = ["insurance", "core", "database", "config", "claims", "claim-pilot"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "claim-pilot-logging @ git+https://github.com/claim-pilot/claim-pilot-logging.git@main",
+    "psycopg2-binary>=2.9.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.1.0",
+    "mypy>=1.8.0",
+]
+
+[project.urls]
+Repository = "https://github.com/claim-pilot/claim-pilot-core.git"
+Issues = "https://github.com/claim-pilot/claim-pilot-core/issues"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/claim_pilot_core"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/claim_pilot_core"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

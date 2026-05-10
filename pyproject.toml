@@ -20,7 +20,7 @@ classifiers = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "claim-pilot-logging @ git+https://github.com/claim-pilot/claim-pilot-logging.git@main",
+    "claim-pilot-logging @ git+https://github.com/INSURANCE-AGENTS-PLATFORM/claim-pilot-logging.git@master",
     "psycopg2-binary>=2.9.0",
     "pydantic>=2.0.0",
     "pydantic-settings>=2.0.0",
@@ -37,8 +37,8 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/claim-pilot/claim-pilot-core.git"
-Issues = "https://github.com/claim-pilot/claim-pilot-core/issues"
+Repository = "https://github.com/INSURANCE-AGENTS-PLATFORM/claim-pilot-core.git"
+Issues = "https://github.com/INSURANCE-AGENTS-PLATFORM/claim-pilot-core/issues"
 
 [tool.hatch.metadata]
 allow-direct-references = true

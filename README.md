@@ -46,7 +46,18 @@ make lint
 ```
 
 ## Versioning
+```bash
+git add .
+git commit -m "Bump version to 2026.01.X"
+git push origin main
+```
 
+### 3. Create and Push Tag
+
+```bash
+git tag v2026.01.X
+git push origin v2026.01.X
+```
 Calendar Versioning (CalVer): `YYYY.MM.PATCH`
 
 ## Maintainer

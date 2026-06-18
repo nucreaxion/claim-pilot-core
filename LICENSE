@@ -1,6 +1,10 @@
 MIT License
 
+<<<<<<< HEAD
 Copyright (c) 2026 aadesakin
+=======
+Copyright (c) 2026 Claim Pilot
+>>>>>>> 1686a74 (Claim Pilot: ports, FastMCP, Docling/DSPy, LiteLLM/Ragas/DeepEval eval, README maintainers, tooling updates)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

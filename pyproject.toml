@@ -2,6 +2,7 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+
 [project]
 name = "claim-pilot-core"
 version = "2026.05.2"

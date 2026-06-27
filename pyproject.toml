@@ -20,7 +20,7 @@ classifiers = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "claim-pilot-logging @ git+https://github.com/nucreaxion/claim-pilot-logging.git@master",
+    "claim-pilot-logging @ git+https://github.com/nucreaxion/claim-pilot-logging.git@main",
     "psycopg2-binary>=2.9.0",
     "pydantic>=2.0.0",
     "pydantic-settings>=2.0.0",

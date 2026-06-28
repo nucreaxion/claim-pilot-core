@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "claim-pilot-core"
-version = "2026.05.2"
+version = "2026.5.2"
 description = "Shared configuration, database utilities, exceptions, and core components for Claim Pilot platform"
 readme = "README.md"
 license = "MIT"

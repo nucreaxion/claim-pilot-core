@@ -62,6 +62,6 @@ Calendar Versioning (CalVer): `YYYY.MM.PATCH`
 
 This repository is maintained for the **Claim Pilot** platform (Blue Lambda University).
 
-- **Email:** [justin.weber@bluelambdatechnologies.com](mailto:justin.weber@bluelambdatechnologies.com)
+- **Email:** [nucreaxion@aol.com](mailto:nucreaxion@aol.com)
 
 For professional inquiries, security-sensitive reports, or questions about this component, please reach out via the address above.
